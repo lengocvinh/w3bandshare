@@ -1,0 +1,421 @@
+         .header {
+             height: 46px;
+             background-color: var(--white-color);
+         }
+         
+         .header__navbar {
+             display: flex;
+             justify-content: space-between;
+         }
+         
+         .header__navbar--left {
+             display: flex;
+         }
+         
+         .header__navbar--left i {
+             margin-right: 10px;
+         }
+         
+         .header__navbar--left li {
+             display: inline-block;
+         }
+         
+         .header__navbar--left li:hover .header__navbar--item,
+         .header__navbar--right:hover a {
+             color: #000;
+             background-color: #ccc;
+         }
+         
+         .header__navbar--item {
+             display: block;
+             text-align: center;
+             line-height: 46px;
+             padding: 0 24px;
+             font-size: 16px;
+             text-decoration: none;
+             color: var(--black-color);
+         }
+         
+         .slider-img {
+             position: relative;
+             width: 100%;
+             bottom: 0px;
+             right: 0;
+         }
+         
+         .slider__info {
+             width: 644px;
+             top: 40%;
+             left: 8px;
+             margin: 0 10px;
+             position: absolute;
+         }
+         
+         .slider__info-section {
+             background-color: #f44336;
+             overflow: hidden;
+         }
+         
+         .slider__info-heading {
+             font-size: 30px;
+             font-weight: 400;
+             margin: 10px;
+             color: var(--white-color);
+         }
+         
+         .slider__info-icon {
+             margin-right: 16px;
+         }
+         
+         .slider__form-personal {
+             padding: 16px 0;
+             background-color: var(--white-color);
+             display: block;
+         }
+         
+         .slider__form--age {
+             /* float: right; */
+             display: flex;
+             justify-content: space-between;
+             margin-bottom: 32px;
+         }
+         
+         .slider__form-checkin {
+             width: 49.99999%;
+             padding: 0 8px;
+             display: block;
+         }
+         
+         .slider__form-icon {
+             margin-bottom: 4px;
+         }
+         
+         .slider__form--control {
+             padding: 10px;
+             text-align: left;
+             display: block;
+             width: 100%;
+             border: 1px solid #dedede;
+         }
+         
+         .slider__form-checkout {
+             overflow: hidden;
+             width: 49.99999%;
+             display: block;
+             padding: 0 8px;
+         }
+         
+         .slider__form-btn {
+             font-size: 16px;
+             color: #fff;
+             background-color: #616161;
+             padding: 8px 16px;
+             margin: 0 10px;
+             border: 1px solid #999999;
+         }
+         
+         .slider__form-btn:hover {
+             color: #000;
+             background-color: #ccc;
+             cursor: pointer;
+         }
+         
+         .slider__rooms {
+             margin: 0 8px;
+         }
+         
+         .slider__room--heading {
+             margin: 10px 0;
+             font-size: 24px;
+             font-weight: 500;
+             letter-spacing: 1.0px;
+         }
+         
+         .slider__room--text {
+             margin: 15px 0;
+             font-size: 15px;
+             line-height: 1.5;
+         }
+         
+         .slider__room--control {
+             width: 100%;
+             padding: 8px 16px;
+         }
+         
+         .slider__room-btn {
+             padding: 8px 16px;
+             font-size: 16px;
+             width: 100%;
+             background-color: var(--black-color);
+             color: #ccc;
+         }
+         
+         .slider__room-btn:hover {
+             background-color: #ccc;
+             color: #000;
+             cursor: pointer;
+         }
+         
+         .slider__room-list {
+             padding: 16px 0;
+         }
+         
+         .slider__room-item {
+             overflow: hidden;
+             object-fit: contain;
+         }
+         
+         .slider__room-img {
+             width: 100%;
+             object-fit: cover;
+         }
+         
+         .slider__room-desc {
+             padding: 0 16px;
+         }
+         
+         .slider__room-number {
+             margin: 10px 0;
+             font-size: 24px;
+             font-weight: 500;
+         }
+         
+         .slider__room-from {
+             margin: 15px 0;
+             color: #c2c2c2;
+         }
+         
+         .slider__room-bed {
+             margin: 15px 0;
+         }
+         
+         .slider__room-area {
+             margin: 15px 0;
+         }
+         
+         .slider__room-icon {
+             margin: 18px 0;
+         }
+         
+         .slider__about--img {
+             height: auto;
+             width: 100%;
+             filter: grayscale(75%);
+         }
+         
+         .slider__about--heading {
+             margin: 10px 0;
+             font-size: 24px;
+             font-weight: 500;
+         }
+         
+         .slider__about--text {
+             font-weight: 400;
+             font-size: 16px;
+             line-height: 1.6;
+             margin: 10px 0;
+         }
+         
+         .slider__about--icon {
+             font-size: 20px;
+         }
+         
+         .slider__address {
+             margin: 32px 0;
+             text-align: center;
+         }
+         
+         .slider__address span {
+             font-size: 20px;
+             font-weight: 400;
+         }
+         
+         .slider__address--icon {
+             color: orangered;
+             font-size: 18px;
+         }
+         
+         .content__demand {
+             background-color: #f44336;
+             display: block;
+             width: 100%;
+             height: 116px;
+             margin: 16px 8px;
+         }
+         
+         .content__demand--text {
+             margin: 10px 0;
+             color: #fff;
+             font-weight: 400;
+             font-size: 16px;
+             line-height: 116px;
+             display: block;
+         }
+         
+         .content__demand--icon {
+             padding: 8px 16px;
+             background-color: #ff5722;
+             margin: 0 16px;
+         }
+         
+         .content__hotel {
+             padding: 8px 0;
+         }
+         
+         .content__hotel--img {
+             width: 100%;
+             margin-bottom: 14px;
+             display: block;
+         }
+         
+         .content__hotel-list {
+             padding: 16px 0;
+             position: relative;
+         }
+         
+         .content__hotel-list {
+             padding: 16px 0;
+             /* position: relative; */
+         }
+         
+         .content__hotel--cinque,
+         .content__hotel--newyork,
+         .content__hotel--pisa,
+         .content__hotel--san,
+         .content__hotel--paris {
+             position: relative;
+         }
+         
+         .content__hotel--cinque span,
+         .content__hotel--newyork span,
+         .content__hotel--pisa span,
+         .content__hotel--san span,
+         .content__hotel--paris span {
+             position: absolute;
+             bottom: 0;
+             left: 0;
+         }
+         
+         .content__hotel-list span {
+             color: #fff;
+             padding: 8px 16px;
+             font-size: 18px;
+         }
+         
+         .content__news {
+             background-color: #000;
+             color: #fff;
+             padding: 32px 16px;
+             line-height: 22.5px;
+             height: 287px;
+             margin: 32px 0;
+         }
+         
+         .content__new--item {}
+         
+         .content__new--label {
+             font-size: 15px;
+             line-height: 22.5px;
+         }
+         
+         .content__new--input {
+             padding: 10px 8px;
+             width: 100%;
+         }
+         
+         .content__new--btn {
+             padding: 10px 16px;
+             margin-top: 16px;
+             background-color: #f44336;
+             color: #fff;
+             border: none;
+         }
+         
+         .content__new--btn:hover {
+             background-color: #fff;
+             color: #000;
+             cursor: pointer;
+         }
+         
+         .contact {
+             padding: 0 16px;
+         }
+         
+         .contact__content {}
+         
+         .contact__content--info span {
+             margin-left: 16px;
+         }
+         
+         .contact__content--icon {
+             font-size: 15px;
+             color: #ff5722;
+             padding: 4px 0;
+         }
+         
+         .contact__content--form {
+             margin-top: 16px;
+         }
+         
+         .contact__content--input {
+             padding: 16px 8px;
+             width: 100%;
+             margin-bottom: 16px;
+         }
+         
+         .contact__content--btn {
+             padding: 12px 24px;
+             border: none;
+             background-color: #000;
+             color: #fff;
+             margin: 15px 0;
+         }
+         
+         .contact__content--btn:hover {
+             cursor: pointer;
+             background-color: #ccc;
+             color: #000;
+         }
+         
+         .footer {
+             margin-top: 16px;
+         }
+         
+         .footer__content {
+             text-align: center;
+             padding: 32px 0;
+             background-color: #000;
+             margin: 16px 0;
+             color: #fff;
+             height: 231px;
+             display: block;
+         }
+         
+         .footer__content h5 {
+             margin: 10px;
+             font-weight: 300;
+             font-size: 18px;
+         }
+         
+         .socials-list {
+             padding: 16px 0;
+             font-size: 24px;
+             color: #fff;
+         }
+         
+         .socials-list i:hover {
+             opacity: 0.7;
+         }
+         
+         .copyright {
+             margin: 15px 0;
+             font-size: 15px;
+         }
+         
+         .copyright a {
+             color: #fff;
+         }
+         
+         .copyright a:hover {
+             color: #4CAF50;
+         }
